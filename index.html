@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather update</title>
+</head>
+
+<body>
+    <section>
+        <div class="weather_body">
+            <h2 class="header">Find Weather</h2>
+            <div class="weather_search">
+                <div class="search_box">
+                    <input type="text" id="inp" placeholder="Ente a valid city name">
+                    <button type="button" id="search"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="weather_detail">
+                    <div id="cityName"></div>
+                    <div id="degree"></div>
+                    <div id="humidity"></div>
+                    <img src="images/weathericon.png" width="80%">
+                </div>
+                <div class="wind_update" id="wind">
+
+                </div>
+                <div class="cloud_data" id="data">
+                </div>
+
+            </div>
+            <div class="date_time" id="dnt">
+            </div>
+        </div>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
